@@ -1,13 +1,10 @@
 // Copyright (c) 2022 ChenJun
 // Licensed under the Apache-2.0 License.
 
-#include <tf2/LinearMath/Quaternion.h>
-
 #include <rclcpp/logging.hpp>
 #include <rclcpp/qos.hpp>
 #include <rclcpp/utilities.hpp>
 #include <serial_driver/serial_driver.hpp>
-#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 
 // C++ system
 #include <cstdint>
